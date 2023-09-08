@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="html5.png" type="image/x-icon">
+    <title>FORM PAGE</title>
+</head>
+<body>
+
+    <h1>FORMS PAGE</h1>
+
+    <p>Input your details please:</p>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+        <label for="Name">Name:</label>
+        <br *2>
+        <input type="text" id="name" name="users name" required> </input><br *2>
+
+        <label for="Email">Email:</label>
+        <br *2>
+        <input type="email" id="email" name="email" required> </input><br *2>
+
+        <label for="password">Password:</label>
+        <br *2>
+        <input type="password" id="password" name="password" required></input>
+
+        <br *2>
+        <div>&nbsp;</div>
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+<hr>
+    <form>
+        <textarea name="text area" id="text area" cols="30" rows="10">TEXT HERE!</textarea>
+    </form>
+
+    <FORM>
+        <br *4>
+        <label for="food">CHOOSE YOUR FAVORITE FOOD:</label>
+        <select id="food" name="food">
+             <option value="banku">Banku</option>
+               <option value="jollof">Jollof</option>    
+                 <option value="rice">Rice</option>
+                   <option value="waakye">Waakye</option>
+                </select>
+           <input type="submit">     
+    </FORM>
+
+    <form>
+        <label for="phone">Enter a phone number:</label>
+
+        <input type="tel" id="phone" name="phone" placeholder="123-456-8910" pattern="[0-9] {3} [0-9]{3} [0-9]{4}">
+    </form>
+    
+</body>
+</html>
